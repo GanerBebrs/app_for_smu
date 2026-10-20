@@ -1,0 +1,3 @@
+import { Container } from "@/components/ui/container";
+export const metadata = { title: "Terms — Aera / 01", description: "Terms of service placeholder." };
+export default function TermsPage() { return <Container className="max-w-3xl py-20"><p className="eyebrow">Legal / 02</p><h1 className="mt-5 font-display text-6xl tracking-[-.07em]">Terms of service</h1><div className="mt-10 space-y-6 text-lg leading-8 text-muted"><p>TODO: replace this placeholder with your final terms of service.</p><p>These terms describe the relationship between Your Product Name and visitors or customers. Add your purchase, use, intellectual property, liability, and governing law sections here.</p></div></Container>; }

@@ -1,0 +1,3 @@
+import { Container } from "@/components/ui/container";
+export const metadata = { title: "Privacy — Aera / 01", description: "Privacy policy placeholder." };
+export default function PrivacyPage() { return <Container className="max-w-3xl py-20"><p className="eyebrow">Legal / 01</p><h1 className="mt-5 font-display text-6xl tracking-[-.07em]">Privacy policy</h1><div className="mt-10 space-y-6 text-lg leading-8 text-muted"><p>TODO: replace this placeholder with your final privacy policy.</p><p>We respect your information and only use it to provide the experience described on this site. Add your data collection, retention, contact, and rights language here.</p></div></Container>; }
